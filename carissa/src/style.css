@@ -1,0 +1,164 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+/* Header Styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    background-color: #f8f8f8;
+}
+
+.logo h1 {
+    font-size: 2rem;
+    color: #8B4513; /* Bakery Brown */
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+}
+
+nav ul li a:hover {
+    color: #8B4513;
+}
+
+.cart-icon {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.cart-icon i {
+    cursor: pointer;
+}
+
+/* Section Styling */
+.about {
+    background-color: #ffefd5;
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.about h2 {
+    font-size: 2.5rem;
+    color: #8B4513;
+    margin-bottom: 1rem;
+}
+
+.about p {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+}
+
+.cta-button {
+    background-color: #8B4513;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.cta-button:hover {
+    background-color: #a0522d;
+}
+
+/* Products Section */
+.products {
+    padding: 2rem 0;
+}
+
+.products h3 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
+
+.product {
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.product h4 {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.product p {
+    color: #8B4513;
+    font-size: 1rem;
+}
+
+/* Party Decoration Section */
+.party {
+    background-color: #f0e68c;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.party h3 {
+    font-size: 2rem;
+    color: #8B4513;
+}
+
+.party-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.party-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.party-item h4 {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.party-item p {
+    color: #8B4513;
